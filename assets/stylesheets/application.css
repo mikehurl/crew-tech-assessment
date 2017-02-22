@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Verdana, Geneva, sans-serif; 
 }
 
 [class*="col-"] {
