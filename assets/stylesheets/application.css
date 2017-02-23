@@ -27,7 +27,7 @@ p {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.strapline-heading {
+.strapline-heading-module {
   text-align: center;
 }
 
@@ -38,7 +38,7 @@ p {
   position: relative;
 }
 
-.heading {
+.heading-module {
   margin-top: 15px;
   text-align: center;
 }
