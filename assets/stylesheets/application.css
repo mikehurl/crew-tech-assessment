@@ -4,7 +4,8 @@
 }
 
 p {
-  font-size: 0.8em
+  font-size: 0.8em;
+  margin-top: -10px;
 }
 
 [class*="col-"] {
@@ -31,8 +32,13 @@ p {
 }
 
 .youtube-module {
-  margin-top: 20px;
+  margin-top: 15px;
   width: 100%;
   height: auto;
   position: relative;
+}
+
+.heading {
+  margin-top: 15px;
+  text-align: center;
 }
