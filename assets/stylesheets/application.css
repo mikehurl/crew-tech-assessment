@@ -1,14 +1,74 @@
-* {
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, sans-serif;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
-body {
-  width: 80%;
-  margin: 30px auto;
+h1, h2, p, .cta-module {
+  text-align: center;
+  margin: 30px 0 30px;
 }
 
 h2 {
+  color: #046AED;
+}
+
+a.productgrid {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.imagegrid-cell, .productgrid-cell {
+  margin: 1rem;
+}
+
+.coach-tip-image {
+  position: absolute;
+  left: 0px;
+  width: 45%;
+  padding: 10px;
+}
+
+.coach-tip-text {
+  position: absolute;
+  right: 0px;
+  width: 45%;
+  padding: 10px;
+}
+
+.cell img {
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  .youtube-module, .imagegrid-module, .productgrid-module, .sleep-tips-module {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .imagegrid-cell {
+    width: calc((100% / 3) - 2rem);
+  }
+  .productgrid-cell {
+    width: calc((100% / 4) - 2rem);
+  }
+}
+
+
+
+
+
+/*h2 {
   text-align: center;
   font-size: 1.65em;
   margin: 0 0 30px;
@@ -17,32 +77,41 @@ h2 {
 div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
-p {
-  font-size: 0.8em;
-  margin-top: -10px;
+figure {
+  display: inline-block;
+  margin: 0px 0px 8px 0px;
+  width: calc(50% - 4px);
+  overflow: hidden;
 }
 
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-    border: 1px solid red;
+figcaption {
+  margin-top: 15px;
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: transform .2s ease-in-out;
+}
+
+.p a {
+  display: inline;
+  font-size: 13px;
+  margin: 0;
+  text-decoration: underline;
+  color: blue;
+}
+
+.p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 100px;
+}
 
 .youtube-module {
   margin-top: 15px;
@@ -54,4 +123,4 @@ p {
 .heading-module {
   margin-top: 15px;
   text-align: center;
-}
+}*/
