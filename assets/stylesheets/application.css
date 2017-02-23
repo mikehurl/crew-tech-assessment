@@ -25,3 +25,9 @@
 .strapline-heading {
   text-align: center;
 }
+
+.youtube-module {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
