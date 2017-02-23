@@ -3,6 +3,10 @@
     font-family: Verdana, Geneva, sans-serif;
 }
 
+p {
+  font-size: 0.8em
+}
+
 [class*="col-"] {
     float: left;
     padding: 15px;
