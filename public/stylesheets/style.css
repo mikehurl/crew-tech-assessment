@@ -1,8 +1,4 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, sans-serif;
 }
