@@ -23,3 +23,6 @@ Due to a quickly approaching deadline, I took the decision to export the JSON da
 I utilised the tutorial at https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ to deal with the images on my page.
 
 For the Javascript animating, I used code from https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr and https://www.w3schools.com/howto/howto_js_slideshow.asp and http://jsfiddle.net/cCvtL/1/
+
+### Future development
+I would be keen to determine why the two images associated with each individual coach tip seem to have an additional blank image. This is currently resulting in the two correct images transitioning quickly but then no image is rendered for some time.
