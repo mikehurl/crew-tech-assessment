@@ -28,10 +28,6 @@ a.productgrid {
   max-width: 100%;
 }
 
-.coach-image {
-  display: none;
-}
-
 .imagegrid-cell, .productgrid-cell {
   margin: 1rem;
 }
