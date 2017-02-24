@@ -24,8 +24,12 @@ a.productgrid {
   padding: 0 1rem;
 }
 
-.responsive-image {
+.responsive-image, .coach-image {
   max-width: 100%;
+}
+
+.coach-image {
+  display: none;
 }
 
 .imagegrid-cell, .productgrid-cell {
